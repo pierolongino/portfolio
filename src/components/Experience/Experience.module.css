@@ -13,20 +13,21 @@
   font-weight: 700;
   letter-spacing: 1.75px;
   text-transform: uppercase;
+  
 }
 
 .content {
   display: flex;
   flex-direction: row;
   justify-content: space-evenly;
-  margin-top: 14px;
+  margin-top: 50px;
 }
 
 .skills {
-  width: 45%;
-  display: flex;
-  flex-wrap: wrap;
-  gap: 37px;
+  width: 100%;
+  display: grid;
+  grid-template-columns: repeat(6, 1fr); /* Modifica qui per 6 colonne */
+  gap: 20px; /* Riduci il gap se necessario per 6 colonne */
 }
 
 .skill {
@@ -106,15 +107,47 @@
     align-items: center;
     gap: 34px;
   }
+  .container {
+    margin-bottom: -290px;
+  }
+
 
   .skills {
     width: 100%;
-    flex-direction: row;
-    justify-content: center;
+    grid-template-columns: repeat(3, 1fr); /* Mantiene 3 colonne */
+    gap: 15px; /* Ridotto per migliorare l'adattamento su schermi più piccoli */
   }
 
-  .history {
-    width: 100%;
-    gap: 9px;
+  .skillImageContainer {
+    width: 100px; /* Ridotto per adattarsi meglio su schermi piccoli */
+    height: 100px; /* Ridotto per adattarsi meglio su schermi piccoli */
+  }
+
+  .skillImageContainer img {
+    width: 60px; /* Ridotto per adattarsi meglio su schermi piccoli */
+  }
+
+  .skill p {
+    font-size: 20px; /* Ridotto per mantenere il testo leggibile senza overflow */
+  }
+}
+
+@media screen and (max-width: 480px) {
+  .skills {
+    grid-template-columns: repeat(3, 1fr); /* Mantiene 3 colonne su schermi molto piccoli */
+    gap: 10px; /* Ulteriore riduzione del gap per evitare overflow */
+  }
+
+  .skillImageContainer {
+    width: 80px; /* Ulteriore riduzione per schermi molto piccoli */
+    height: 80px; /* Ulteriore riduzione per schermi molto piccoli */
+  }
+
+  .skillImageContainer img {
+    width: 50px; /* Ulteriore riduzione per schermi molto piccoli */
+  }
+
+  .skill p {
+    font-size: 18px; /* Ulteriore riduzione per schermi molto piccoli */
   }
 }

@@ -6,7 +6,7 @@ import "../../index.css"
 export const Contact = () => {
   return (
     <section className={styles.contact} id='contact'>
-        <h2 className={styles.heading}>Contact <span>Me!</span></h2>
+        <h2 className={styles.heading}>Contact Me!</h2>
         <form action="#">
             <div className={styles.inputBox}>
                 <div className={styles.inputField}>

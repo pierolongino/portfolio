@@ -203,7 +203,7 @@
 @media screen and (max-width: 830px) {
   .home {
     flex-direction: column-reverse;
-    margin-top: -100px;
+    margin-top: -200px;
   }
 
   .homeContent {

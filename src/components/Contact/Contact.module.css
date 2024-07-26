@@ -9,14 +9,16 @@
   }
 
 .contact {
+    color: var(--color-text);
+    margin-top: 79px;
+    margin-left: 2%;
+    margin-right: 2%;
     min-height: auto;
     padding-bottom: 7rem;
 }
 
 .contact h2 {
     display: inline-block;
-    left: 50%;
-    transform: translateX(-50%);
     
 }
 
