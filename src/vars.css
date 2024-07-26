@@ -1,0 +1,15 @@
+:root {
+    /* COLORI */
+    --color-text: #fff;
+    --color-primary: #82C2E6;
+    --color-secondary: #5584B0;
+    --color-dark: #6a398c;
+    --color-bg: #254E7A;
+    --color-bottom: #6a398c;
+    --color-top: #6a398c;
+  
+    /* FONTS */
+    --font-roboto: "Poppins";
+  }
+  
+  

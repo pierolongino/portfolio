@@ -1,0 +1,14 @@
+@import "../../vars.css";
+
+.footer {
+    display: flex;
+    justify-content: end;
+    align-items: center;
+    flex-wrap: wrap;
+    padding: 2rem 9%;
+    background: var(--color-secondary);
+}
+
+.footer-text p {
+    font-size: 1.6rem;
+}
