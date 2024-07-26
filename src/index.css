@@ -26,3 +26,12 @@ section {
   padding: 10rem 9% 2rem;
 }
 
+html, body {
+  overflow-x: hidden;
+}
+
+@media (max-width: 768px) {
+  html, body {
+    overflow-x: hidden;
+  }
+}
