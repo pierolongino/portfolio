@@ -14,7 +14,7 @@ export const Hero = () => {
             <p>I’m a new frontend developer with a passion for creating engaging and intuitive web experiences. I focus on blending modern design with cutting-edge technology to deliver exceptional results. Eager to learn and grow, I’m excited to tackle new challenges and bring innovative ideas to life.</p>
             
             <div className={styles.btnBox}>
-                <a href="#" className={styles.btn}>Hire Me</a>
+                <a href="#" className={styles.btn}>Contact</a>
                 <a href="mailto:pierolongino.pl@gmail.com" className={styles.btn}>Let's Talk</a>
             </div>
         </div>

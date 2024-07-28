@@ -5,6 +5,8 @@
   margin-top: 79px;
   margin-left: 2%;
   margin-right: 2%;
+  margin-bottom: -200px;
+
 }
 
 .title {
@@ -108,7 +110,7 @@
     gap: 34px;
   }
   .container {
-    margin-bottom: -290px;
+    margin-bottom: -200px;
   }
 
 
@@ -138,6 +140,10 @@
     gap: 10px; /* Ulteriore riduzione del gap per evitare overflow */
   }
 
+  .container{
+    margin-bottom: -300px;
+  }
+
   .skillImageContainer {
     width: 80px; /* Ulteriore riduzione per schermi molto piccoli */
     height: 80px; /* Ulteriore riduzione per schermi molto piccoli */
@@ -149,5 +155,43 @@
 
   .skill p {
     font-size: 18px; /* Ulteriore riduzione per schermi molto piccoli */
+  }
+}
+
+@media only screen and (max-device-width: 667px) {
+  .skills {
+    grid-template-columns: repeat(3, 1fr); /* Mantiene 3 colonne su schermi molto piccoli */
+    gap: 10px; /* Ulteriore riduzione del gap per evitare overflow */
+  }
+
+  .skillImageContainer {
+    width: 80px; /* Ulteriore riduzione per schermi molto piccoli */
+    height: 80px; /* Ulteriore riduzione per schermi molto piccoli */
+  }
+  
+
+  .skillImageContainer img {
+    width: 50px; /* Ulteriore riduzione per schermi molto piccoli */
+  }
+
+  .skill p {
+    font-size: 18px; /* Ulteriore riduzione per schermi molto piccoli */
+  }
+
+
+}
+
+@media screen and (max-width: 360px) {
+
+  .container{
+    margin-bottom: -170px;
+  }
+}
+
+
+@media screen and (max-width: 375px) {
+
+  .container{
+    margin-bottom: -170px;
   }
 }

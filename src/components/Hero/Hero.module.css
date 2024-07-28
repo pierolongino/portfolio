@@ -229,3 +229,10 @@
     min-height: auto;
   }
 }
+
+@media screen and (max-width: 375px) {
+
+  .homeContent{
+    margin-bottom: -170px;
+  }
+}

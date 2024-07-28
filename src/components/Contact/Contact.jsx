@@ -14,7 +14,7 @@ export const Contact = () => {
                     <span className={styles.focus}></span>
                 </div>
                 <div className={styles.inputField}>
-                    <input type="text" name='email' placeholder='Email Address' required />
+                    <input type="email" name='email' placeholder='Email Address' required />
                     <span className={styles.focus}></span>
                 </div>
             </div>
